@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('user_id');
             $table->string('meal_name');
             $table->string('meal_type');
+            $table->string('meal_price');
             $table->string('meal_image');
             $table->timestamps();
         });
