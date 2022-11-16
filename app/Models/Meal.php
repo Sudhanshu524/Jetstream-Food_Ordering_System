@@ -14,7 +14,6 @@ class Meal extends Model
         'partner_id',
         'meal_name',
         'meal_type',
-        'meal_price',
         'meal_image',
     ];
 
